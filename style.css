@@ -1,0 +1,52 @@
+/* table.Table-5>tr*7>td*11 */
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+body {
+    font-family: 'Bebas Neue', Courier, monospace;
+    font-size: 25px;
+    background-color: #cbcbcb;
+    color: #2E373A;
+    text-align: center; 
+    /* display: flex;
+    justify-content: center;
+    height: 10px; */
+}
+
+.table-atr table td {
+    padding: 3px;
+    margin: 0;
+    width: 100px;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+hr {
+    width: 100%;
+}
+
+.drk-grn {
+    background-color: #305f1b;
+}
+
+.grn {
+    background-color: #4d962b;
+}
+
+.d-ora {
+    background-color: #ad7d24;
+}
+
+.pnk {
+    background-color: #97428c;
+}
+
+.f-s {
+    font-size: 15px;
+}
+
+.t-o {
+    transform: rotate(-90deg); /* Поворачивает текст на 90 градусов */
+    display: inline-block; /* Позволяет элементу занимать только необходимое пространство */
+}
